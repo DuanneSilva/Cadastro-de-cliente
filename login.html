@@ -1,48 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=" ">
-    <title>Formulário</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Login</title>
 </head>
-
 <body>
-    <div class="box">
-        <form>
-            <fieldset>
-                <legend><b>Formulário de clientes</b></legend>
-                <br>
-                <div class="inputbox">
-                    <input type="text" name="nome" id="nome" class="userInput" required>
-                    <label for="nome">Nome completo</label>
-                </div>
-                <div class="inputbox">
-                    <input type="email" name="email" id="email" class="userInput" required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="inputbox">
-                    <input type="tel" name="telefone" id="telefone" class="userInput" required>
-                    <label for="telefone">Telefone</label>
-                </div>
-                <div>
-                    <label for="genero">Sexo:</label>
-                    <select id="genero" name="genero">
-                        <option value="feminino">Feminino</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="outro">Outro</option>
-                    </select>
-                </div>
-                <div class="inputbox">
-                    <label for="data_nascimento">Data de Nascimento</label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" class="userInput" required>
-                </div>
-                <input type="submit" name="submit" id="submit">
-            </fieldset>
-        </form>
-    </div>
+    <section>
+        <h1>Login</h1>
+        <input type="text" placeholder="Nome">
+        <input type="password">
+    </section>
 </body>
-
 </html>
+<a href="#" class="recuperar_senha">Esqueceu a senha?</a>
