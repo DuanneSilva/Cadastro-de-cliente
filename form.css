@@ -64,16 +64,8 @@ legend {
 
 /*---- Login----*/
 
-/*reset*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-    border: none;
-}
-
 /*Dados de login*/
-.container-main {
-    background-color: bisque;
+
+#container-main {
+    
 }
