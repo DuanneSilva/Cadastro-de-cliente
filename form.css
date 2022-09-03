@@ -1,14 +1,16 @@
-body{
-    font-family:'Work Sans', sans-serif;
-    background-image:linear-gradient(to right, rgb(175, 163, 163), rgb(187, 110, 110)) ;
+/*---formulario---*/
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-image: linear-gradient(to right, rgb(175, 163, 163), rgb(187, 110, 110));
     font-size: 20px;
-    
+
 }
+
 .box {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: rgb(110, 92, 84);
     text-align: center;
     padding: 20px;
@@ -17,31 +19,36 @@ body{
     height: auto;
     box-shadow: 20px 20px 30px rgb(36, 34, 34);
     color: rgb(243, 233, 211);
-    
-    
 }
-fieldset{
+
+fieldset {
     border: 5px double rgb(180, 167, 167);
     border-radius: 10px;
 }
-legend{
+
+legend {
     border: 5px double rgb(233, 188, 188);
     padding: 10px;
     background-color: rgb(184, 164, 194);
     border-radius: 5px;
 }
-.inputbox{
+
+/*Dados pessoais*/
+.inputbox {
     position: relative;
     text-align: left;
 }
-.userInput{
+
+.userInput {
     text-align: center;
     border-radius: 5px;
     width: 100%;
     letter-spacing: 1px;
 }
-#submit{
-    background-image:linear-gradient(to left, rgb(175, 163, 163), rgb(187, 110, 110)) ;
+
+/*Botão de enviar*/
+#submit {
+    background-image: linear-gradient(to left, rgb(175, 163, 163), rgb(187, 110, 110));
     width: 100%;
     border: none;
     padding: 20px;
@@ -50,6 +57,23 @@ legend{
     border-radius: 10px;
     cursor: pointer;
 }
-#submit:hover{
-    background-image:linear-gradient(to right, rgb(175, 163, 163), rgb(104, 95, 95))
+
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(175, 163, 163), rgb(104, 95, 95))
+}
+
+/*---- Login----*/
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+}
+
+/*Dados de login*/
+.container-main {
+    background-color: bisque;
 }
