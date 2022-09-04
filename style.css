@@ -67,14 +67,20 @@ footer {
     left: 8px;
     text-align: center;
 }
-.logo,.logo2{
+
+.logo,
+.logo2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     margin: 10px;
     padding: 10px;
 }
-.icon1,.icon2,.icon3,.icon4{
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
     padding: 10px;
 }
