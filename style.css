@@ -13,8 +13,6 @@ form {
     text-align: center;
     padding: 20px;
     border-radius: 20px;
-    width: 30%;
-    height: auto;
     box-shadow: 20px 20px 30px rgb(36, 34, 34);
     color: rgb(243, 233, 211);
 }
@@ -62,10 +60,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 25rem;
-    left: 8px;
-    text-align: center;
+    place-content:center;
+    margin: 50px;
 }
 
 .logo,
