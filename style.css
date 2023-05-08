@@ -1,14 +1,25 @@
-#login-home {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(to right, rgb(175, 163, 163), rgb(187, 110, 110));
-    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
 form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 36%;
+    height: 73%;
     background-color: rgb(85, 75, 88);
     text-align: center;
     padding: 20px;
@@ -16,8 +27,13 @@ form {
     box-shadow: 20px 20px 30px rgb(36, 34, 34);
     color: rgb(243, 233, 211);
 }
+fieldset p {
+    padding: 20px 0px;
+
+}
 
 fieldset {
+    height: 100%;
     border: 5px double rgb(180, 167, 167);
     border-radius: 10px;
 }
